@@ -221,7 +221,7 @@ class MCTSPlayer(Player):
     4. Backpropagation: Update statistics up the tree
     """
 
-    def __init__(self, player_id: int, time_limit: float = 0.5):
+    def __init__(self, player_id: int, time_limit: float = 4.85):
         super().__init__(player_id)
         self.time_limit = time_limit
 
